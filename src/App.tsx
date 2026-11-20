@@ -8,7 +8,7 @@ const products:Product[] = [
  {id:3,name:"Caminha Conforto Nuvem",category:"Acessórios",price:89.9,oldPrice:109.9,rating:5.0,image:"https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?w=700&q=85"},
  {id:4,name:"Petisco Natural de Frango",category:"Petiscos",price:24.9,rating:4.9,image:"https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=700&q=85"},
  {id:5,name:"Ração Premium para Gatos",category:"Rações",price:99.9,rating:4.8,image:"https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=700&q=85"},
- {id:6,name:"Coleira Urban com Guia",category:"Acessórios",price:39.9,rating:4.7,tag:"Oferta",image:"https://images.unsplash.com/photo-1601758123927-196 ಸು".replace(" ಸು","")+"?w=700&q=85"},
+ {id:6,name:"Coleira Urban com Guia",category:"Acessórios",price:39.9,rating:4.7,tag:"Oferta",image:"https://images.unsplash.com/photo-1551717743-49959800b1f6?w=700&q=85"},
 ];
 const categories = ["Todos","Rações","Petiscos","Brinquedos","Acessórios"];
 const money=(v:number)=>v.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
